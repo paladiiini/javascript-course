@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 5</title>
+    <style>
+        body {
+            background-color: #f69cf1;
+            color: #fff;
+            text-align: center;
+        }
+        h1{
+            font-size: 50px;
+            text-align: center; 
+            color: #ab32eb;
+        }
+        p{
+            font-size: 30px;
+            text-align: center;
+            color: #ffffff;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        var name = window.prompt("Enter your name: ");
+        document.write(`Hello, <strong>${name}</strong>! Your name has ${name.length} letters.<br/>`);
+        document.write(`Your name in uppercase is: ${name.toUpperCase()}`);
+        document.write(`<br/>Your name in lowercase is: ${name.toLowerCase()}`);
+        var age = window.prompt("Enter your age: ");
+        document.write(`<br/>You are ${age} years old!`);
+        var salary = Number(window.prompt("Enter your salary: "));
+        document.write(`<br/>Your salary is ${salary.toLocaleString('en-US',{style: 'currency', currency: 'USD'})}`);
+    </script>
+</body>
+</html>

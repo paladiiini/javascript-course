@@ -1,0 +1,26 @@
+body {
+    background-color: #abee93;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+section {
+    width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #00000063;
+}
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+}
+header {
+    text-align: center;
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 20px;
+}

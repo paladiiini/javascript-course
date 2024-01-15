@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo DOM</title>
+    <style>
+        body{
+            
+            background-color: #48aff0;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aula 09 - <strong>DOM</strong></h1>
+    <p>Aqui vai o resultado</p>
+    <div id="msg">Clique em mim!</div>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write(`O primeiro parágrafo é ${p1.innerText}`)
+        p1.style.color = '#ff0000'
+        var d = window.document.getElementById('msg')
+        d.style.background = '#ff0000'
+        d.innerText = 'Estou aguardando...'
+    </script>
+</body>
+</html>
