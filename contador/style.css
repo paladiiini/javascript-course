@@ -1,9 +1,9 @@
 body {
-    background-color: #c3a353;
+    background-color: #abee93;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    text-align: center;
 }
-
 section {
     width: 500px;
     margin: 0 auto;
@@ -13,41 +13,39 @@ section {
     border-radius: 10px;
     box-shadow: 5px 5px 10px #00000063;
 }
-
 footer {
     text-align: center;
     font-size: 12px;
     color: #666;
     font-style: italic;
 }
-
 header {
     text-align: center;
     font-size: 24px;
     color: #666;
     margin-bottom: 20px;
 }
-
-#anoInput {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-}
-#ano {
-    height: 20px;
-}
-#sexoInput {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-}
-#foto {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
+input{
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
     border: 1px solid #ccc;
+    padding-left: 20px;
     box-shadow: 5px 5px 10px #00000063;
-    text-align: center ;
+}
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
